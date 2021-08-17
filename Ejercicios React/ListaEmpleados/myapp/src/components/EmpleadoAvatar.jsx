@@ -1,13 +1,12 @@
 import React from 'react'
-import '../App.css';
 
 const EmpleadoAvatar = (props) => {
     let empleadosAvatar = props.empleados;
     return (
         <>
-        { empleadosAvatar.map((item, index)=>(
+        { empleadosAvatar.map((empleados, index)=>(
 <div key={index}>
-          <img className="empleadosAvatar" width="120px" src={item.pic} alt="img-avatar"/>  
+          <img className="empleadosAvatar" width="120px" src={empleados.pic} alt="img-avatar"/>  
       </div>
             ))
         }

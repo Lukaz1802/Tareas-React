@@ -5,7 +5,7 @@ import EmpleadoList from './components/EmpleadoList';
 function App() {
   return (
     <div className="App">
-      <EmpleadoList/>
+      <EmpleadoList />
     </div>
   );
 }
